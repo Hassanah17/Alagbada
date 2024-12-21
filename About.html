@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="myportfolio.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+      <!--------- header ---------->
+      <header class="header">
+        <h1>IBRAHIM HASSANAH</h1>
+        <div class="navMenu" id="navMenu">
+          <i class='bx bx-window-close' onclick='closeMenu()'></i>
+          <ul>
+            <li><a href="myportfolio.html">Home</a></li> 
+            <li><a href="about.html" class="active">About</a></li> 
+            <li><a href="services.html">Services</a></li> 
+            <!-- <li><a href="portfolio.html">Portfolio</a></li>  -->
+            <li><a href="contact.html">Contact</a></li> 
+          </ul>
+        </div>
+        <i class='bx bx-menu' onclick='openMenu()'></i>
+      </header>
+
+      <!-------- sub-header section ------------>
+      <section class="sub-header" id="sub-header">
+           <h1>About <span>Me</span></h1>
+      </section>
+
+  <!-------- about section ------>
+  <section class="about">
+    <div class="about-img">
+       <img src="./IMAGES/IMAGE1.jpg" alt="image"> 
+    </div>
+    <div class="about-text">
+    <h4><span>I am a</span> detail-oriented VA</h4>
+    <p>recently certified through an intensive eight-week ALX Virtual Assistant program. With a background in sociology from the University of Ilorin and a passion for remote work, I am skilled in providing administrative support, managing tasks, and enhancing productivity for businesses and individuals. <br>
+      Additionally, I am a growing web developer with a keen interest in building digital solutions and enhancing user experiences. As a recent graduate and youth service completer with hands-on experience in teaching and community service, I bring a strong work ethic, adaptability, and enthusiasm to every role I undertake.
+      <br> I am excited to create a solid foundation for my career by delivering exceptional results and contributing to meaningful projects in the virtual workspace.     </p>
+    <a href="" class="btn" id="btn-about">Let's Talk</a>
+  </div>
+  </section>
+
+  <section class="edu">
+    <div class="about-edu">
+      <div class="text-title"><h2>Educational <span>Background</span></h2></div>
+
+      <div class="sq">
+      <div class="school">
+        <h3>School attended</h3>
+        <p>University of Ilorin</p>
+      </div>
+
+      <div class="qualification">
+        <h3>Qualification Obtained</h3>
+        <p>Bsc. Sociology (2018 - 2022)</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="experience">
+    <div class="expr">
+      <div class="text-title"><h2>Professional <span>Experience</span></h2></div>
+<h3>Holy Trinity High School, Ilesa West - Osun State</h3>
+<h4>Type of organization:</h4>
+<p> Middle School</p>
+<h4>Position:</h4>
+<p>Class Teacher</p>
+<h4>Roles Played:</h4>
+<ol>
+  <li>Collaborated with colleagues and administrators</li>
+  <li>Participated in student mentorship and support</li>
+  <li>Contributed to knowledge sharing activites</li>
+  <li>Attendance of staff meetings to observe and learn</li>
+</ol>
+    </div>
+    </div>
+  </section>
+
+  <section class="certs">
+    <div class="sub-text-title">
+      <h2>Certifications</h2>
+    </div>
+
+    <div class="certss">
+    <div class="certificates">
+      <img src="./IMAGES/alxcert.png" alt="image">
+      <h3>ALX Certificate</h3>
+    </div>
+    <div class="certificates">
+      <img src="./IMAGES/codebloomcert.png" alt="">
+      <h3>codeBloom Certificate</h3>
+    </div>
+  </div>
+  </section>
+
+  <!-------- footer --------->
+  <footer class="footer">
+    <div class="attribution">
+      <p>Designed With <i class='bx bx-heart'></i> By Ibrahim Hassanah</p>
+    </div>
+    <div class="move-up">
+      <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!------JS with toggle menu ------>
+  <script>
+    var navMenu = document.getElementById("navMenu");
+
+    function openMenu() {
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu() {
+      navMenu.style.right = "-200px";
+    }
+  </script>
+    </body>
+</html>

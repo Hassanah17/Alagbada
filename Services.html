@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="myportfolio.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+      <!--------- header ---------->
+      <header class="header">
+        <h1>IBRAHIM HASSANAH</h1>
+        <div class="navMenu" id="navMenu">
+          <i class='bx bx-window-close' onclick='closeMenu()'></i>
+          <ul>
+            <li><a href="myportfolio.html">Home</a></li> 
+            <li><a href="about.html">About</a></li> 
+            <li><a href="services.html" class="active">Services</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+          </ul>
+        </div>
+        <i class='bx bx-menu' onclick='openMenu()'></i>
+      </header>
+
+      <!-------- sub-header section ------------>
+      <section class="sub-header" id="sub-header">
+        <h1><span>My</span> Services</h1>
+      </section>
+
+  <!---------services section---------->
+  <section class="skills" id="skills">
+    <div class="text-title">
+      <h2>What I <span>Do?</span></h2>
+    </div>
+    <div class="skills-content" id="skills-content">
+      <div class="box">
+        <div class="icons">
+          <i class='bx bxs-edit-alt bx-tada' ></i>
+        </div>
+        <h3>Data Entry & Management</h3>
+        <p>I accurately input, organize, and maintain databases, spreadsheets, reviewing data for errors, updating records, and creating organized documentation for seamless access and reporting.</p>
+        <a class="btn" href="https://wa.me/2347069655739?text=Hello,%20I%20am%20interested%20in%20your%20Data%20Entry%20&%20Management%20services." target="_blank">
+          Hire Me
+        </a>
+      </div>
+     
+      <div class="box">
+        <div class="icons">
+       <i class='bx bx-calendar bx-tada' ></i>
+        </div>
+        <h3>Administrative Support</h3>
+        <p>I manage calendars, schedule appointments, and handle email correspondence, ensuring smooth day-to-day operations. This role also includes creating and maintaining organizational documents, managing to-do lists, and streamlining workflows to enhance productivity.</p>
+        <a class="btn" href="https://wa.me/2347069655739?text=Hello,%20I%20am%20interested%20in%20your%20Adminidtrative%20Support%20services." target="_blank">
+          Hire Me
+        </a>
+      </div>
+      
+      <div class="box">
+        <div class="icons">
+          <i class='bx bxs-plane-alt bx-tada'></i>
+        </div>
+        <h3>Travel Planning</h3>
+        <p>I organize itineraries, book flights, and arrange accommodations for hassle-free travel experiences.  assist with budgeting, ensuring all plans align with financial preferences, and provide guidance on obtaining necessary travel documents like visas. Additionally, I conduct thorough research on destinations, offering insights into attractions, local customs, and weather, while being available to troubleshoot and resolve any travel-related issues that may arise. </p>
+        <a class="btn" href="https://wa.me/2347069655739?text=Hello,%20I%20am%20interested%20in%20your%20Travel%20Planning%20services." target="_blank">
+          Hire Me
+        </a>
+      </div>
+
+      <div class="box">
+        <div class="icons">
+          <i class='bx bx-clipboard bx-tada' ></i>
+        </div>
+        <h3>Project Management</h3>
+        <p>Coordinating projects by managing timelines, monitoring progress to ensure timely delivery and to keep projects on track and within scope.</p>
+        <a class="btn" href="https://wa.me/2347069655739?text=Hello,%20I%20am%20interested%20in%20your%20Project%20Management%20services." target="_blank">
+          Hire Me
+        </a>
+      </div>
+
+      <div class="box">
+        <div class="icons">
+          <i class='bx bx-phone-call bx-tada' ></i>
+        </div>
+        <h3>Customer Support</h3>
+        <p>Acting as the primary point of contact for customer inquiries. Responsibilities include managing customer interactions through email, live chat, or phone, ensuring a positive client experience and building long-term trust.</p>
+        <a class="btn" href="https://wa.me/2347069655739?text=Hello,%20I%20am%20interested%20in%20your%20Customer%20Support%20services." target="_blank">
+          Hire Me
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <!-------- footer ----------->
+  <footer class="footer">
+    <div class="attribution">
+      <p>Designed With <i class='bx bx-heart'></i> By Ibrahim Hassanah</p>
+    </div>
+    <div class="move-up">
+      <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!------JS with toggle menu ------>
+  <script>
+    var navMenu = document.getElementById("navMenu");
+
+    function openMenu() {
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu() {
+      navMenu.style.right = "-200px";
+    }
+  </script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="myportfolio.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+      <!--------- header ---------->
+      <header class="header">
+        <h1>IBRAHIM HASSANAH</h1>
+        <div class="navMenu" id="navMenu">
+          <i class='bx bx-window-close' onclick='closeMenu()'></i>
+          <ul>
+            <li><a href="myportfolio.html">Home</a></li> 
+            <li><a href="about.html">About</a></li> 
+            <li><a href="services.html">Services</a></li> 
+            <li><a href="contact.html" class="active">Contact</a></li> 
+          </ul>
+        </div>
+        <i class='bx bx-menu' onclick='openMenu()'></i>
+      </header>
+
+      <!-------- sub-header section ------------>
+      <section class="sub-header" id="sub-header">
+        <h1>Contact <span>Me!</span></h1>
+      </section>
+
+      <!------ contact section ---------->
+<section class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.186407543158!2d4.612270874061425!3d8.481248197324481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10364ce643e26cc9%3A0xe47a663ebce70e0d!2sTanke%20Rd%2C%20Akanbi-1v%20240102%2C%20Kwara!5e0!3m2!1sen!2sng!4v1734765453051!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h4>Whatever your virtual assistance need may be....</h4>
+    
+      <div class="list">
+        <li><a href="https://wa.me/2347069655739">+234 7069655739</a></li>
+        <li><a href="https://ibrahimhassanah17@gmail.com">ibrahimhassanah17@gmail.com</a></li>
+        <li><a href="#">Like, Share & Subscribe</a></li>
+      </div>
+    
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/ibraheem-hassanah-4817a6238"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+         </div>
+     </div>
+ </section>
+  
+  <!-------- footer --------->
+  <footer class="footer">
+    <div class="attribution">
+      <p>Designed With <i class='bx bx-heart'></i> By Ibrahim Hassanah</p>
+    </div>
+    <div class="move-up">
+      <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <!------JS with toggle menu ------>
+  <script>
+    var navMenu = document.getElementById("navMenu");
+
+    function openMenu() {
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu() {
+      navMenu.style.right = "-200px";
+    }
+  </script>
+    </body>
+</html>
